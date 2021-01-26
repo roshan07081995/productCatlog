@@ -1,0 +1,15 @@
+mat-sidenav {
+    width: 200px;
+}
+.mat-nav-list a {
+color: #000;
+}
+.mat-nav-list a.active {
+background: blue;
+}
+mat-sidenav-content mat-nav-list{
+    display:inline-flex;
+}
+mat-sidenav-content mat-nav-list a{
+    color:#fff;
+}

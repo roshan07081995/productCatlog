@@ -1,0 +1,43 @@
+.login-form-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+  
+.button-flex-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+
+.myform-wrapper {
+    margin: 50px;
+    width: 350px;
+
+    .mat-form-field {
+        width: 100%;
+    }
+
+    .mat-toolbar-single-row {
+        height: auto !important;
+        background: transparent;
+
+        button {
+            width: 30%;
+        }
+    }
+}
+
+#fileUpload {
+    position: absolute;
+    z-index: 9;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    cursor: pointer;
+}
